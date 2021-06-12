@@ -1,0 +1,275 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->    
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg"></a> 
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Connect</a>
+				</li>
+			</ul>
+		</div>
+    </div>
+</nav> 
+
+<!--Iamge Slider-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ul class="carousel-indicators">
+	<li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ul>	
+<div class="carousel-inner">
+	<div class="carousel-item active">
+		<img class="w-100" src="img/background.jpg">
+		<div class="carousel-caption">
+			<h1 class="display-2">GYM</h1>
+			<h3>BODY BUILDING AND FITNESS</h3>
+			<button type="button" class="btn btn-outline-light btn-lg">VIEW TIMINGS</button>
+			<button type="button" class="btn btn-primary btn-lg">GET STARTED</button>
+		</div>
+	</div>
+	<div class="carousel-item">
+		<img class="w-100" src="img/background2.jpg">
+	</div>
+	<div class="carousel-item">
+		<img class="w-100" src="img/background3.jpg">
+	</div>
+</div>
+</div>
+
+<!--JUmbotron -->
+<div class="container-fluid">
+<div class="row jumbotron">
+	<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+	   <p class="lead">Push your fitness further with our mix of facilities and we'll support you with advice on new and better ways to train.</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+		<a href="#"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Find a club</button></a>
+	</div>
+</div>
+</div>
+<!--Welcome Section-->
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+	<div class="col-12">
+		<h1 class="display-4">Build with ease.</h1>
+	</div>
+	<hr>
+	<div class="col-12">
+		<p class="lead">Flex your mind and use your heart as often as you flex your muscles.No Excuses. No Laziness. Rise up and Conquer. 365 days a year. Lifting is life.</p>
+	</div>
+</div>	
+</div>
+<!-- Three Column Section -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+       <div class="col-xs-12 col-sm-6 col-md-4">
+		<i class="fa fa-check"></i>
+		   <h3>THE RULE</h3>
+		   <p>Lift slow and steady.</p>
+	   </div>
+	   <div class="col-sm-12 col-md-4">
+		<i class="fa fa-recycle" aria-hidden="true"></i>
+		<h3>THE RULE</h3>
+		<p>Change your routine.</p>
+	</div>
+	<div class="col-sm-12 col-md-4">
+		<i class="fa fa-thumbs-up"></i>
+		<h3>THE RULE</h3>
+		<p>Always do your deadlifts first.</p>
+	</div>
+	
+	</div>
+	<hr class="my-4">
+</div>
+<!--Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+	<div class="col-lg-6">
+		<h2>If You Build it...</h2>
+	    <p> It increases your metabolic rate, which causes your body to burn more fat.</p>
+		<p>No matter how young or old you are you will have more energy if you build more muscle. After shedding excess fat there will be a lot less of you to carry around.</p>
+		<p>Furthermore body building is absolutely crucial to an effective weight loss program. This is because when you lose weight through dieting it is possible to lose muscle. To keep the weight off and also to keep from wasting away you also need to be on a complimentary program of muscle building along with your aerobic program of exercise which may include such activities as swimming, jogging or spinning on a stationary bicycle.</p>
+	    <br>
+		<a href="#" class="btn btn-primary">Learn more</a>
+	</div>
+	<div class="col-lg-6">
+		<img src="img/desk.jpg" class="img-fluid">
+	</div>
+</div>	
+</div>
+
+<hr class="my-4">
+<!--Fixed Background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+<!-- Emoji Section-->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun </button>
+<div id="emoji" class="collapse">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/panda.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/poo.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/unicorn.gif">
+			</div>
+			<div class="col-sm-6 col-md-3">
+				<img class="gif" src="img/gif/chicken.gif">
+			</div>
+		</div>
+	</div>
+</div>
+<!--Meet the team-->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet the team</h1>
+		</div>
+	</div>
+</div>
+<!--Cards-->
+<div class="container-fluid padding">
+<div class="row padding">
+   <div class="col-md-4">
+	   <div class="card"> 
+		   <img class="card-imd-top" src="img/IMG_9975.JPG">
+		   <div class="card-body">
+			   <h4 class="card-title">Mogi</h4>
+			   <p class="class-text">Mogi is an Web Development Learner and Created this Website.</p>
+			   <a href="#" class="btn btn-outline-secondary">See profile</a>
+		   </div>
+	   </div>
+   </div> 
+   <div class="col-md-4">
+	<div class="card"> 
+		<img class="card-imd-top" src="img/IMG_9927.JPG">
+		<div class="card-body">
+			<h4 class="card-title">Gogul</h4>
+			<p class="class-text">Gogul is a doctor and has nothing to do with this site.</p>
+			<a href="#" class="btn btn-outline-secondary">See profile</a>
+		</div>
+	</div>
+</div> 
+<div class="col-md-4">
+	<div class="card"> 
+		<img class="card-imd-top" src="img/IMG_0010.JPG">
+		<div class="card-body">
+			<h4 class="card-title">Random</h4>
+			<p class="class-text">Blah Blah Blah.</p>
+			<a href="#" class="btn btn-outline-secondary">See profile</a>
+		</div>
+	</div>
+</div> 
+</div>
+</div>
+<!--Two column section-->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-lg-6">
+			<h2>Our Philosophy</h2>
+			<p>Do the things today others won't, so that tomorrow you can do the things others can't!</p>
+			<p>The more you sweat in practice, the less you bleed in battle.</p>
+        </div>
+		<div class="col-lg-6">
+			<img src="img/plates.jpg" class="img-fluid">
+		</div>
+	</div>	
+	</div>
+<!--Connect-->
+<div class="container-fluid padding">
+<div class="row text-center padding">
+	<div class="col-12">
+		<h2>Connect</h2>
+	</div>
+	<div class="col-12 social padding">
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-youtube"></i></a>
+
+	</div>
+</div>	
+</div>	
+<!--Footer-->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="img/w3newbie.png">
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@myemail.com</p>
+				<p>100 Street Name</p>
+				<p>City, State, 00000</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our hours</h5>
+				<hr class="light">
+				<p>Monday:9am - 5pm</p>
+				<p>Saturday: 10am - 4pm</p>
+				<p>Sunday: closed</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h5>
+				<hr class="light">
+				<p>City, State, 00000</p>
+				<p>City, State, 00000</p>
+				<p>City, State, 00000</p>
+				<p>City, State, 00000</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy; w3newbie.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>    
+
+
+
+
+</html>
